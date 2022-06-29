@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #000;
+    background-image: url(img/fondo\ mi\ fe.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.red{
+    width: 100%;
+    padding: 5px 0px ;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.logo{
+    width: 25px;
+    margin: 5px;
+    height: auto;
+}
+.logo-red{
+    margin-right: 40px;
+}
+.portada{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media all and (max-width: 800px){
+    .mife-2{
+       display: none;
+    }
+    .mife-1{
+        max-width: 95%;
+        height: 100px;
+    }
+}
+.mife-1{
+    width: 500px;
+    height: auto;
+  
+}
+.mife-2{
+    margin-top: 90px;
+    width: 150px;
+    height: auto;
+}
+.boton-wspp-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wspp{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 0px;
+    width: 200px;
+    background-color: green;
+    text-shadow:  2px 2px 3px #000;
+    box-shadow:  3px 4px 5px rgba(0, 0, 0, 0.445);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: none;
+
+}
+.pro{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.199);
+
+}
+@media all and (max-width: 800px){
+    .img-pro{
+       max-width: 138px;
+       height: auto;
+    }
+}
+
+.img-pro{
+    width: 250px;
+    height: auto;
+    margin: 15px;
+    box-shadow: 9px 9px 11px 3px #0000005c;
+    border-radius: 0px 0px 15px 15px ;
+    display: flex;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container-contac{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.img-contac{
+    width: 200px;
+    height: auto;
+    margin: 10px;
+   
+    box-shadow: 7px 8px 20px 0px #0000ffa3;
+}
+.contactos{
+    width: 400px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #fff;
+    margin: 30px;
+    box-shadow: 7px 8px 20px 0px #0000ffa3;
+}
+@media all and (max-width: 768px){
+    .container-contac{
+        width: 300px;
+        height: auto;
+        display: flex;
+    justify-content: center;
+    }
+}
+.text-wspp{
+    color: #000;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.h1-contacto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: #000;
+}
+.contactos-h1{
+   
+    color: #fff;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+.nombre{
+    width: 235px;
+    margin: 20px 0px;
+}
+.enviar{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.whatsapp{
+    width: 20px;
+    margin: 5px 20px;
+}
+.pie-red{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(21, 21, 22);
+    padding: 5px 0px;
+}
+.img-pie{
+    width: 30px;
+    margin: 5px;
+}
+
+/*ventana*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+.texto{
+    margin: 30px auto;
+    width: 80%;
+}
+
+.texto p, h1{
+    margin-bottom: 1px;
+}
+
+.texto p{
+    font-size: 20px;
+}
+
+.btn-abrir{
+    background: #0063a5;
+    color:#fff;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+
+/* VENTANA MODAL */
+
+.pop-up{
+    background: rgba(48, 48, 48, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.pop-up-wrap{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 950px;
+    transform: scale(0.6);
+    opacity: 0;
+    transition: .3s ease all;
+}
+
+.pop-up-title{
+    flex-basis: 0;
+    flex-grow:1.5;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url("./img/portada\ atras.png");
+    background-size: 165%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pop-up-title::after{
+    content: '';
+    position: absolute;
+  
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.pop-up-title::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+.subcription::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+.pop-up-title h2,
+.pop-up-title p{
+    z-index: 10;
+    color: #fff;
+}
+
+.pop-up-title h2{
+    font-family: 'Chiller';
+    font-size: 80px;
+}
+
+
+.pop-up-title p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.subcription{
+    background: #fff;
+    flex-basis: 0;
+    flex-grow: 2;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+.sub-content{
+    width: 75%;
+}
+
+.sub-content h2{
+    font-weight: 500;
+    font-size: 40px;
+    color: #1F4068;
+    margin-bottom: 15px;
+}
+
+.sub-content p{
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.subs-email{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: #ccc;
+    margin-bottom: 15px;
+}
+
+.subs-send{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: #E43F5A;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: .25s ease background;
+}
+
+.subs-send:hover{
+    background: #2c1bc5;
+}
+
+.line{
+    width: 100%;
+    height: 20px;
+    background: #1F4068;
+}
+
+#close{
+    position: absolute;
+    top: 40px;
+    right: 25px;
+    font-size: 25px;
+    color: #000000;
+    cursor: pointer;
+}
+.modal-logo{
+    width: 300px;
+}
+
+.pop-up.show{
+    visibility: visible;
+}
+
+.pop-up-wrap.show{
+    transform: scale(1);
+    opacity: 1;
+}
+
+@media only screen and (max-width: 980px){
+    .pop-up-title{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 320px){
+    .sub-content h2{
+        font-size: 30px;
+    }
+}
+.wsp-ico-modal{
+    width: 44px;
+    height: auto;
+    margin-bottom: 3PX;
+}
+.wsp-ico-modal-2{
+    width: 35px;
+    height: auto;
+    margin-bottom: 6PX;
+}
